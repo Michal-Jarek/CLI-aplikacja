@@ -77,28 +77,4 @@ const addContact = async (name, email, phone, contactsPath) => {
 };
 
 export { listContacts, removeContact, getContactById, addContact };
-// //listContacts();
 
-// const trying = async () => {
-//   // await removeContact(13);
-
-//   await addContact(
-//     "Józek Brzęczyszczykiewicz",
-//     "masdfasdf@m.sadsafsdafsdpl",
-//     "(2055) 2222-225588"
-//   );
-
-//   console.log(await listContacts());
-// };
-// trying();
-
-//listContacts();
-//removeContact(4);
-//listContacts();
-
-//  fs.readFile(contactsPath)
-//    .then((data) => {
-//      const contactArray = JSON.parse(data.toString());
-//      console.log(contactArray.find((data) => data.id === contactId.toString()));
-//    })
-//    .catch((err) => console.log(err.message));
